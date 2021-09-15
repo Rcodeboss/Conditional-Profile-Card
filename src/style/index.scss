@@ -3,6 +3,7 @@
 .filters {
   background: white;
   width: 100%;
+  font-family: "Rubik", sans-serif;
   li {
     display: inline-block;
     max-width: 80px;
@@ -22,15 +23,16 @@
 }
 .widget {
   position: relative;
-  width: 300px;
+  width: 500px;
   height: 350px;
   margin: 50px auto;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 12 5px 25px rgba(0, 0, 0, 0.1);
   .cover {
     height: 160px;
     overflow: hidden;
+    border: 2px black;
     img {
       width: 100%;
       height: auto;
